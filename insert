@@ -1,0 +1,13 @@
+INSERT INTO acct_mstr_1805969
+(acct_no,sf_no,lf_no,branch_no,intro_cust_no,intro_acct_no,intro_sign,type_,opr_mode,curr_accc_type,title,corp_cust_no,apldt,opndt,veri_emp_no,veri_sign,mgr_sign,curbal,status)
+VALUES
+('1805969','class11','class112','b21',null,null,null,'hdfc','manual','savings','mahin mittal',null,'11-jan-2020','4-aug-2018',null,null,null,'5000','B');
+
+
+
+
+
+INSERT INTO emp_mstr_1805969
+(emp_no,branch_no,fname,mname,lname,dept,desig,mngr_no)
+VALUES
+('1','b2','mahin',null,'mittal','corprate','manager',123);
